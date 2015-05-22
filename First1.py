@@ -3,8 +3,7 @@ def add(x, y):
     return z
 
 def sub(x,y):
-    z=x-y
-    return z
+    return x-y
 
 def mult(x,y):
     z=x*y
