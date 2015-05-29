@@ -27,7 +27,44 @@ def Funk_list_add(x,y):
     for i in range(len(x)):
         print(x[i]+y[i])
 
-
+#x = input("Type a number and press enter...\n\t")
 #while(True):
 #    print("hello")
         
+#x = int(input("List 8 reasons why the civil war was important below.\n\t 1.\n\t 2.\n\t 3.\n\t 4.\n\t 5.\n\t 6.\n\t 7.\n\t 8.\n\t"))
+
+'''
+if (x <5):
+    print("less than 5")
+    
+print("this")
+#else:
+#    print("greater than 5 or equal to")
+
+
+print(x) #not casting the char
+print( int(y) ) #casting the char to an int
+'''
+
+while True:
+    x = input("type a number...")
+    y = input("type a number...")
+    c = input("select the number of the operation you would like to perform\n\t 1 = Add\n\t2 =Subtract\n\t3 = Multiply\n")
+
+    x = int(x)
+    y = int(y)
+    c = int(c)
+    
+    if c == 1:
+        print(add(x,y))
+    elif c == 2:
+        print(sub(x,y))
+    elif c == 3:
+        print(mult(x,y))
+    else:
+        print("ya fucked up!")
+
+    e = int(input("would you like to stop?\n\t1 = Yes\n\t2 = No"))
+
+    if e == 2:
+        break          
