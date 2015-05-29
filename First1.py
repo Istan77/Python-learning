@@ -56,7 +56,7 @@ while True:
     y = int(y)
         
     while True:
-        c = input("select the number of the operation you would like to perform\n\t 1 = Add\n\t2 =Subtract\n\t3 = Multiply\n")
+        c = input("select the number of the operation you would like to perform...\n\n\t1 = Add\n\t2 =Subtract\n\t3 = Multiply\n")
         c = int(c)
         
         if c == 1:
@@ -71,7 +71,7 @@ while True:
         else:
             print("ya fucked up!")
 
-    e = int(input("would you like to stop?\n\t1 = Yes\n\t2 = No"))
+    e = int(input("would you like to stop?\n\t1 = Yes\n\t2 = No\n"))
 
     if e == 1:
         print("\nGoodbye!\n")
